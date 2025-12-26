@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calculadora",
+    "name": "Calculadora",
     "slug": "calculadora",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.cesardev.calculator" ,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9d464196-22ba-4425-a8fd-8c9f44bf380c"
+      }
     }
   }
 }
